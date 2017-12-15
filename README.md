@@ -45,3 +45,25 @@ class Test {
     }
 }
 ```
+
+### 2
+```
+class Test {
+
+    companion object {
+        // @JvmStatic
+
+    }
+
+
+}
+
+fun salute() {
+
+}
+
+
+fun main(args: Array<String>) {
+    run(::salute)
+}
+```
