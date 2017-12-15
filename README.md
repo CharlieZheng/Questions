@@ -67,3 +67,22 @@ fun main(args: Array<String>) {
     run(::salute)
 }
 ```
+### 3
+```
+class Test {
+
+    companion object {
+
+
+        @JvmStatic
+        fun main(args: Array<String>) {
+            val list = listOf("a", "ab", "b")
+            println(list.groupBy(String::first))
+        }
+
+    }
+
+
+}
+
+```
