@@ -86,3 +86,16 @@ class Test {
 }
 
 ```
+### 4
+```
+import java.util.ArrayList
+
+fun main(args: Array<String>) {
+    val numbers = ArrayList<Int>()
+    numbers.add(1)
+    numbers.add(1)
+    numbers += 42
+    println(numbers[0].toString() + " " + numbers[1])
+}
+
+```
